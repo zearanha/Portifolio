@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
     background: linear-gradient(0deg, #1b263b, #0d1b2a);
     min-height: 100vh;
-    width: 100vw;
     margin: 0;
     padding: 0;
 `
@@ -14,6 +13,7 @@ export const Header = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 `
 export const LinkPageRoute = styled.div`
     display: flex;
@@ -65,5 +65,17 @@ export const TextBiography = styled.p`
     font-size: 16px;
     color: #e0e1dd;
     font-weight: 400;
-    margin: 20px 30vw;
+    `
+
+export const StyleBio = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B263B;
+    margin: 30px 0;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 `

@@ -5,6 +5,7 @@ import {
   LinkPageRoute,
   Name,
   Perfil,
+  StyleBio,
   TextBiography,
   Title,
 } from "./style";
@@ -31,7 +32,7 @@ function Home() {
           </LinkProject>
         </LinkPageRoute>
         <div>
-          <ButtonContatos>Contatos</ButtonContatos>
+          <ButtonContatos>Contato</ButtonContatos>
         </div>
       </Header>
 
@@ -44,9 +45,11 @@ function Home() {
       </Perfil>
 
       <Biography>
-        <TextBiography>
-        Sou José de Aranha, 18 anos, em transição das artes marciais para a tecnologia, focado no desenvolvimento Full Stack. Estudo HTML, CSS, JavaScript, React, Node.js e Vue.js no Dev Club, além de Python, MySQL, Bootstrap e C na UNIFAN, aplicando projetos no GitHub. Tenho habilidades em colaboração, comunicação, resolução de problemas, flexibilidade e pontualidade. Busco minha primeira oportunidade como desenvolvedor júnior para aplicar meus conhecimentos e contribuir com projetos inovadores.
-        </TextBiography>
+        <StyleBio>
+          <TextBiography>
+          Sou José de Aranha, 18 anos, em transição das artes marciais para a tecnologia, focado no desenvolvimento Full Stack. Estudo HTML, CSS, JavaScript, React, Node.js, Angular e Vue.js no Dev Club, além de Python, MySQL, Bootstrap e C na UNIFAN, aplicando projetos no GitHub. Tenho habilidades em colaboração, comunicação, resolução de problemas, flexibilidade e pontualidade. Busco minha primeira oportunidade como desenvolvedor júnior para aplicar meus conhecimentos e contribuir com projetos inovadores.
+          </TextBiography>
+        </StyleBio>
       </Biography>
     </Container>
   );
